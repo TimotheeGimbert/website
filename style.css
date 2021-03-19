@@ -28,15 +28,21 @@ header{
 	flex-flow: row nowrap;	
 	justify-content: space-between;
 }
-	.menu__bouton  {
-		display: flex;	
-		flex-flow: row nowrap;	
-		justify-content: center;	
-		align-items: center;
-		width: 47%;
+	.menu a  {
+		width: 45%;
 		margin-right: -10px;
 		margin-left: -10px;
 	}
+	a:link, a:visited {
+		background-color: hsl(240, 20%, 15%);
+		color: white;
+		padding: 14px 25px;
+		text-align: center;
+		text-decoration: none;
+	  }
+	  a:hover, a:active {
+		background-color: hsl(210, 30%, 40%);
+	  }
 
 .margin {margin-top: 40px;}
 .whiteborder {border: 10px solid hsl(240, 10%, 80%);}
@@ -47,7 +53,7 @@ h1 {
 	color: white;
 }
 h2 {	
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	color: white;
 }
 h3 {	
