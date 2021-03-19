@@ -1,0 +1,61 @@
+body {
+	display: flex;	
+	flex-flow: column nowrap;
+	align-items: center;
+	width: 100%;
+	margin: 0%;
+	padding: 0%;
+	background-color: hsl(240, 20%, 10%);
+	font-family: "Arcon-Regular";
+}
+header{
+	display: flex;	
+	flex-flow: row nowrap;	
+	justify-content: center;	
+	align-items: end;
+	width: 100%;
+	height: 90px;
+	margin-top: 35px;
+	padding-bottom: 30px; 	
+	background-color: hsl(240, 20%, 15%);
+}
+	header h3 {
+		margin-left: 20px;
+	}
+
+.menu {
+	display: flex;	
+	flex-flow: row nowrap;	
+	justify-content: space-between;
+}
+	.menu__bouton  {
+		display: flex;	
+		flex-flow: row nowrap;	
+		justify-content: center;	
+		align-items: center;
+		width: 47%;
+		margin-right: -10px;
+		margin-left: -10px;
+	}
+
+.margin {margin-top: 40px;}
+.whiteborder {border: 10px solid hsl(240, 10%, 80%);}
+.mainWidth {width: 66%;}
+
+h1 {	
+	font-size: 1.6rem;
+	color: white;
+}
+h2 {	
+	font-size: 1.4rem;
+	color: white;
+}
+h3 {	
+	font-size: 1.2rem;
+	color: hsl(240, 10%, 50%);
+}
+@font-face {
+	font-family: "Arcon-Regular";
+	src: url("fonts/arcon/Arcon-Regular.otf");
+}
+img  {width: 100%;	height: 100%;}
