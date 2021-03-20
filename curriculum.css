@@ -1,10 +1,12 @@
 header {
 	justify-content: start;
 }
-header h2{
-	color:hsl(240, 10%, 50%);
-	margin-left: 80px;
-}
+	header h2 {
+		color:hsl(240, 10%, 50%);
+	}
+	header a {
+		width: 20%;
+	}
 
 .intro {
 	flex-flow: row nowrap;	
