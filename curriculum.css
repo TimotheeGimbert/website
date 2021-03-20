@@ -7,55 +7,61 @@ header h2{
 }
 
 .intro {
-	display: flex;	
 	flex-flow: row nowrap;	
 	justify-content: space-between;
-	min-width: 1000px;
-
+	height: 550px;
 }
-	.intro__identity {
+	.intro__left {
 		display: flex;	
 		flex-flow: column nowrap;	
 		align-items: center; 
-		width:  47%;
-		padding-top: 4%;	
-		padding-bottom: 4%;
+		width: 35%;
+		margin-left: 80px;
 		background-color: hsl(240, 20%, 80%);
 	}
-		.intro__identity h1 {
-			margin-top: 10%;
-			font-size: 2.2rem;
+		.intro__left h1 {
+			margin-top: 60px;
+			font-size: 2rem;
 			color: black;
 		}
-		.intro__identity--photo {
+		.intro__left--photo {
 			display: flex;	
 			flex-flow: column nowrap;	
 			align-items: center; 
-			width: 50%;
-			height: 80%;
+			width: 40%;
+			height: 50%;
+			margin-top: 80px;
 			border: 10px solid hsl(204, 20%, 95%);
 		}
-		.intro__identity--photo img {
-			width: 100%;
-			height: 100%;
-		}
-	.intro__bio {
+
+	.intro__right {
 		display: flex;	
 		flex-flow: column nowrap;	
-		justify-content: space-around;
-		width: 36%;
-		padding: 5%;		
-		padding-left: 10%;
-		background-color: hsl(210, 30%, 40%);
+		justify-content: space-between;
+		width: 50%;
+		margin-right: 40px;
+		background-color: hsl(240, 20%, 10%);
 	}
+		.intro__rigth--heading {
+			margin: auto;
+		}
+		.intro__rigth--body {
+			display: flex;	
+			flex-flow: column nowrap;	
+			justify-content: space-between;
+			align-items: center;
+		}
+		.intro__rigth--body div {
+			background-color: hsl(210, 30%, 40%);
+			width: 80%;
+			margin-top: 40px;
+			padding: 20px;
+		}
 
 .xp {
-	display: flex;	
 	flex-flow: row nowrap;	
 	justify-content: space-around;
-	min-width: 1000px;
-	padding-top: 3%;	
-	padding-bottom: 3%;
+	padding: 30px 0 30px 0;	
 	background-color: hsl(240, 10%, 50%);
 }
 	.xp__left {
@@ -72,9 +78,12 @@ header h2{
 		width: 36%;
 		padding-left: 5%;
 	}	
+.xp h1, h2, h3 {
+	margin: 7px;
+}
 
 span {
-	color: hsl(210, 30%, 40%);
+	color: hsl(210, 97%, 24%);
 }
 h2 {
 	color: black;

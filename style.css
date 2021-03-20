@@ -21,7 +21,9 @@ header, footer {
 }
 
 section {
+	display: flex;	
 	width: 66%;
+	min-width: 1000px;
 	margin-top: 40px;
 }
 .whiteborder {border: 10px solid hsl(240, 10%, 80%);}
