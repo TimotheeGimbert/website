@@ -57,6 +57,9 @@ header h2{
 			margin-top: 40px;
 			padding: 20px;
 		}
+		.intro__rigth--body h2 {
+			color: white;
+		}
 
 .xp {
 	flex-flow: row nowrap;	
