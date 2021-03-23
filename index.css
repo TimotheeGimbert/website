@@ -9,3 +9,20 @@ header h3 {
 	justify-content: space-between;
 }
 	
+#zone {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: end;
+	align-items: center;
+	height: 500px;
+}
+
+#zone h2 {
+	font-style: italic;
+	margin: 20% 0 5% 66%;
+}
+
+header a  {
+	width: 15%;
+	margin: 0 -10px 0 -10px;
+}
