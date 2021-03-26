@@ -7,7 +7,7 @@ zone.addEventListener("mousemove", function(event) {
     const hslText = "hsl(" + xPos + ", 10%, 50%)";
     zone.style.backgroundColor = hslText;
 });
-const villes = ["bordeaux", "paris", "royan", "lyon"];
+const villes = ["bordeaux", "paris", "royan", "nantes"];
 for (let ville in villes) {
     var askWeather = new XMLHttpRequest();
     askWeather.open("GET", "https://www.prevision-meteo.ch/services/json/" + villes[ville]);
@@ -15,6 +15,10 @@ for (let ville in villes) {
     askWeather.onreadystatechange = function () {
       if (this.readyState == XMLHttpRequest.DONE && this.status == 200)     {
         var response = JSON.parse(this.responseText);
+
+        var name = response.city_info.name;
+        var destination = "#ville" + ville + " h1";
+        document.querySelector(destination).innerHTML = name;
 
         var condition = response.current_condition.condition;
         var destination = "#ville" + ville + " h2";
