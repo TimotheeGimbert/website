@@ -8,6 +8,13 @@ header {
 		width: 13%;
 	}
 
+section {
+	display: flex;	
+	width: 66%;
+	min-width: 1000px;
+	margin-top: 40px;
+}
+
 .intro {
 	flex-flow: row nowrap;	
 	justify-content: space-between;

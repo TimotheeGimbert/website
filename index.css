@@ -2,11 +2,21 @@ header h3 {
 	margin-left: 40px;
      color: hsl(240, 10%, 50%);
 }
-  
+
+section {
+	display: flex;	
+	width: 80%;
+	min-width: 1000px;
+	margin-top: 40px;
+}
+
 .menu {
 	display: flex;	
 	flex-flow: row nowrap;	
 	justify-content: space-between;
+}
+.menu a {
+	width: 28%;
 }
 	
 .meteo {

@@ -19,13 +19,11 @@ header, footer {
 	padding: 15px 0 15px 0; 
 	background-color: hsl(240, 20%, 15%);
 }
-
-section {
-	display: flex;	
-	width: 66%;
-	min-width: 1000px;
-	margin-top: 40px;
+footer h2 {
+	color:hsl(240, 10%, 50%);
 }
+
+
 .whiteborder {border: 3px solid hsl(240, 10%, 80%);}
 
 h1 {	
