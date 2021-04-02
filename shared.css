@@ -1,18 +1,28 @@
-header {
-	display: flex;	
-	flex-flow: row nowrap;	
-	justify-content: center;
-	align-items: center;	
-	width: 100%;
-	height: 90px;
-	margin: 35px 0 30px 0;
-	padding: 15px 0 15px 0; 
-	background-color: hsl(240, 20%, 15%);
+body {
+	display: flex;	flex-flow: column nowrap;	justify-content: flex-start;	align-items: center;
+	width: 100%;	margin: 0%; 	padding: 0%;
+	font-family: "Arcon-Regular";
 }
 
 header {
+	display: flex;	
+	flex-flow: row nowrap;	
 	justify-content: space-between;
+	align-items: center;	
+	width: 100%;
+	height: 90px;
+	margin: 35px 0 30px 0; /* TRBL Top Right Bottom Left*/
+	padding: 15px 0 15px 0; 
+	background-color: hsl(240, 20%, 15%);
 }
+	header > h1 {	
+		margin-right: 30%;
+		color: white;	
+	}
+	header h3 {
+		font-style: italic;
+		color: hsl(240, 10%, 50%);
+	}
 	header aside {
 		display: flex;
 		flex-flow: column nowrap;
@@ -22,64 +32,46 @@ header {
 		padding: 15px;
 		border: 10px solid hsl(240, 20%, 10%);
 	}
-	header aside a {
-		align-self: flex-start;
-	}
-	header aside h3 {
-		align-self: flex-end;
-	}
-	header > h1 {	
-		margin-right: 30%;
-		color: white;	
-	}
-	header h3 {
-		font-style: italic;
-		color: hsl(240, 10%, 50%);
-	}
+		header aside a {
+			align-self: flex-start;
+		}
+		header aside h3 {
+			align-self: flex-end;
+		}
 	
-body {
-	display: flex;	
-	flex-flow: column nowrap;
-	align-items: center;
-	width: 100%;
-	margin: 0%;
-	padding: 0%;
-	font-family: "Arcon-Regular";
-}
-
 .main {
 	display: flex;
 	flex-flow: row nowrap;
 	width: 100%;
-	/* border: 10px solid hsl(9, 87%, 45%); */
+	/* border: 3px solid hsl(64, 87%, 45%); */
 }
-	.menu {
+	.main__menuLeft {
 		display: flex;	
 		flex-flow: row nowrap;
 		justify-content: center;
-		width: 30%;
-		margin-left: 20px;
-		margin-top: 80px;
-		/* border: 10px solid hsl(138, 87%, 45%); */
+		width: 32%;
+		/* border: 3px solid hsl(138, 87%, 45%); */
 	}
-	.menu nav {
-		display: flex;	
-		flex-flow: column nowrap;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		width: 75%;
-		min-width: 225px;
-		padding: 12% 0 15% 0;
-		background-color: hsl(240, 20%, 10%);
-		/* border: 10px solid hsl(9, 87%, 45%);	 */
-	}
-	nav a {
-		width: 75%;
-		margin: 15px;
-	}
-	.page {
+		.main__menuLeft nav {
+			display: flex;	
+			flex-flow: column nowrap;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			width: 70%;
+			min-width: 225px;
+			margin-top: 80px;
+			background-color: hsl(240, 20%, 10%);
+			/* border: 10px solid hsl(9, 87%, 45%);	 */
+		}
+			.main__menuLeft nav a {
+				width: 75%;
+				margin: 15px;
+			}
+
+	.main__pageRight {
 		width: 70%;
+		/* border: 3px solid hsl(9, 87%, 45%);	 */
 	}
 
 h1 {	
@@ -87,7 +79,7 @@ h1 {
 	color: white;
 }
 h2 {	
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	color: white;
 }
 h3 {	
