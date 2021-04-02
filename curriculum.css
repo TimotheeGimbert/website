@@ -1,11 +1,11 @@
-section {
+/* section {
 	display: flex;	
 	width: 66%;
 	min-width: 1000px;
 	margin-top: 40px;
-}
+} */
 
-.intro {
+/* .intro {
 	flex-flow: row nowrap;	
 	justify-content: space-between;
 	height: 550px;
@@ -87,10 +87,4 @@ section {
 
 span {
 	color: hsl(210, 97%, 24%);
-}
-h2 {
-	color: black;
-}
-h3 {
-	font-style: italic;
-}
+} */

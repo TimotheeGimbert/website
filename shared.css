@@ -13,7 +13,7 @@ header {
 header {
 	justify-content: space-between;
 }
-	aside {
+	header aside {
 		display: flex;
 		flex-flow: column nowrap;
 		width: 15%;
@@ -22,10 +22,10 @@ header {
 		padding: 15px;
 		border: 10px solid hsl(240, 20%, 10%);
 	}
-	aside a {
+	header aside a {
 		align-self: flex-start;
 	}
-	aside h3 {
+	header aside h3 {
 		align-self: flex-end;
 	}
 	header > h1 {	
@@ -33,6 +33,7 @@ header {
 		color: white;	
 	}
 	header h3 {
+		font-style: italic;
 		color: hsl(240, 10%, 50%);
 	}
 	
