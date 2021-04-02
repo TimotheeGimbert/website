@@ -18,7 +18,8 @@
 		</header>
 
 		<div class="main">
-			<section class="main__menuLeft">
+
+			<div class="main__menuLeft">
 				<nav>		
 					<a href="index.html"><h2>Accueil</h2></a>
 					<a href="curriculum.html"><h2>Curriculum Vitae</h2></a>
@@ -26,23 +27,27 @@
 					<a href="meteo.html"><h2>Météo</h2></a>
 					<a href="mailto:gimbert2021@free.fr"><h2>Me contacter</h2></a>
 				</nav>
-			</section>
-
-			<section class="main__pageRight">
-				<div class="main__pageRight--disclaimer">
-					<p>Ce site Web est le support à mon apprentissage des langages de programmation. Son intérêt pour le visiteur éphémère est incertain ... ! </p>
-				</div>
-				<div id="zone" class="main__pageRight--zone">
+			</div>
+			
+			<div class="main__pageRight">
+				<section id="zone" class="zone">
 					<h1>Zone chromatique expérimentale</h1>
-					<p></br>Dans cette zone, on utilise le langage JavaScript pour récupérer la position instantannée du pointeur de la souris.</p> 
+					<p>Dans cette zone, on utilise le langage JavaScript pour récupérer la position instantannée du pointeur de la souris.</p> 
 					<p>Cette position permet de faire évoluer en conséquence la couleur de l'arrière plan.</p>
 					<div class="jsPic"><img src="images/mouseTracking.png" alt="Extrait code JavaScript" title="Extrait code JavaScript"/></div>
 					<h3>' Powered by JavaScript '</h3>
-				</div>
-			</section>
+				</section>
+				<section class="disclaimer">
+					<p>Ce site Web est le support à mon apprentissage des langages de programmation. Son intérêt pour le visiteur éphémère est incertain !</p>
+				</section>
+			</div>
 		</div>
+
+		<footer>
+			<p>Pas la peine de lire ceci, ce n'est que le bas de la page, cela s'appelle un 'footer' ...</p>
+		</footer>
 		
-<script type="text/javascript" src="index.js"></script>		
+		<script type="text/javascript" src="index.js"></script>		
 
 	</body>
 </html>

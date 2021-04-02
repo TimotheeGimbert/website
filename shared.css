@@ -11,7 +11,7 @@ header {
 	align-items: center;	
 	width: 100%;
 	height: 90px;
-	margin: 35px 0 30px 0; /* TRBL Top Right Bottom Left*/
+	margin: 35px 0 30px 0;
 	padding: 15px 0 15px 0; 
 	background-color: hsl(240, 20%, 15%);
 }
@@ -38,19 +38,26 @@ header {
 		header aside h3 {
 			align-self: flex-end;
 		}
-	
+footer {
+	display: flex;	
+	flex-flow: row nowrap;	
+	justify-content: center;
+	align-items: center;	
+	width: 100%;
+	height: 90px;
+	margin-top: 150px;
+	background-color: hsla(240, 19%, 15%, 0.521);
+}	
 .main {
 	display: flex;
 	flex-flow: row nowrap;
 	width: 100%;
-	/* border: 3px solid hsl(64, 87%, 45%); */
 }
 	.main__menuLeft {
 		display: flex;	
 		flex-flow: row nowrap;
 		justify-content: center;
 		width: 32%;
-		/* border: 3px solid hsl(138, 87%, 45%); */
 	}
 		.main__menuLeft nav {
 			display: flex;	
@@ -59,10 +66,10 @@ header {
 			align-items: center;
 			text-align: center;
 			width: 70%;
+			height: 550px;
 			min-width: 225px;
 			margin-top: 80px;
 			background-color: hsl(240, 20%, 10%);
-			/* border: 10px solid hsl(9, 87%, 45%);	 */
 		}
 			.main__menuLeft nav a {
 				width: 75%;
@@ -71,7 +78,8 @@ header {
 
 	.main__pageRight {
 		width: 70%;
-		/* border: 3px solid hsl(9, 87%, 45%);	 */
+		margin: 0px;
+		padding: 0px;
 	}
 
 h1 {	
@@ -92,12 +100,10 @@ h3 {
 }
 img  {width: 100%;	height: 100%;}
 
-
 a:link, a:visited {
 	background-color: hsl(240, 20%, 15%);
 	color: white;
-	/* padding: 14px 25px; */
-	/* text-align: center; */
+	text-align: center;
 	text-decoration: none;
   }
   a:hover, a:active {
