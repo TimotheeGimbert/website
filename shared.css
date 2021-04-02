@@ -1,4 +1,4 @@
-header, footer {
+header {
 	display: flex;	
 	flex-flow: row nowrap;	
 	justify-content: center;
@@ -32,7 +32,7 @@ header {
 		margin-right: 30%;
 		color: white;	
 	}
-	header h3, footer h2 {
+	header h3 {
 		color: hsl(240, 10%, 50%);
 	}
 	
