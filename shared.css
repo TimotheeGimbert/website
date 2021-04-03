@@ -77,6 +77,8 @@ footer {
 			margin: 10px;
 		}
 	.main__pageRight {
+		display: flex;
+		flex-flow: column nowrap;
 		width: 70%;
 		margin: 0px;
 		padding: 0px;
