@@ -1,9 +1,12 @@
 .meteo {
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
+    flex-flow: row wrap;
+	justify-content: center;
 	align-items: center;
-	width: 50%;
+    width: 90%;
+    height: 550px;
+    margin-top: 80px;
+    background-color: hsl(98, 16%, 51%);
 }
 
 .ville {
@@ -11,25 +14,12 @@
 	flex-flow: column nowrap;
 	justify-content: center;
 	align-items: center;
-	width: 49%;
-	height: 49%;
-	background-color: hsl(240, 20%, 15%);
+	width: 40%;
+	height: 40%;
+	margin: 20px;
+	background-color: hsl(98, 16%, 51%);
 }
 .ville h1,h2,h3 {
-	margin: 15px 0 15px 0; /* top rigth bottom left*/
+	margin: 15px 0 15px 0;
 	color: white;
-}
-#zone {
-	display: flex;
-	flex-flow: column nowrap;
-	justify-content: end;
-	align-items: center;
-	width: 50%;
-	height: 500px;
-}
-
-#zone h2 {
-	font-style: italic;
-	font-size: 1rem;
-	margin: 25% 0 5% 66%;
 }
