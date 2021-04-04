@@ -20,9 +20,9 @@ for (let ville in villes) {
         var queryOut = "<img src='" + pathPic +"' alt='Meteo' title='Meteo'/>";
         document.querySelector(destination).innerHTML = queryOut;
 
-        var temperature = response.current_condition.tmp;
-        var destination = "#ville" + ville + " h3";
-        document.querySelector(destination).innerHTML = temperature + " °C";
+        // var temperature = response.current_condition.tmp;
+        // var destination = "#ville" + ville + " h3";
+        // document.querySelector(destination).innerHTML = temperature + " °C";
         }
       };
 }
