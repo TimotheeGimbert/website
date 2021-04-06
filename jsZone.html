@@ -3,9 +3,9 @@
 	<head>
 		<meta charset="utf-8"/>
 		<link rel="stylesheet" href="shared.css"/>
-		<link rel="stylesheet" href="index.css"/>
+		<link rel="stylesheet" href="jsZone.css"/>
 		<link rel="icon" type="image/png" href="images/favicon.png" />
-		<title>Temps T -:- Accueil</title>
+		<title>Temps T -:- Zone Test</title>
 	</head>
 
 	<body> 	
@@ -24,7 +24,7 @@
 					<a href="index.html"><h2>Accueil</h2></a>
 					<a href="curriculum.html"><h2>Curriculum Vitae</h2></a>
 					<a href="skills.html"><h2>Programming skills</h2></a>
-					<a href="jsZone.html"><h2>Zone Javascript</h2></a>
+                    <a href="jsZone.html"><h2>Zone Javascript</h2></a>
 					<a href="meteo.html"><h2>Météo</h2></a>
 					<a href="https://github.com/TimotheeGimbert" target=_blank"><h2>GitHub Repository</h2></a>
 					<a href="mailto:gimbert2021@free.fr"><h2>Me contacter</h2></a>
@@ -32,9 +32,12 @@
 			</div>
 			
 			<div class="main__pageRight">
-				<section class="disclaimer">
-					<p>Ce site Web est le support à mon apprentissage des langages de programmation.</p>
-					<p>Son intérêt pour le visiteur éphémère est incertain !</p>
+				<section id="zone" class="zone">
+					<h1>Zone chromatique expérimentale</h1>
+					<p>Dans cette zone, on utilise le langage JavaScript pour récupérer la position instantannée du pointeur de la souris.</p> 
+					<p>Cette position permet de faire évoluer en conséquence la couleur de l'arrière plan.</p>
+					<div class="jsPic"><img src="images/mouseTracking.png" alt="Extrait code JavaScript" title="Extrait code JavaScript"/></div>
+					<h3>' Powered by JavaScript '</h3>
 				</section>
 			</div>
 		</div>
@@ -42,5 +45,8 @@
 		<footer>
 			<p><a href="index.html"><h2>retour à l'accueil</h2></a></p>
 		</footer>
+		
+		<script type="text/javascript" src="jsZone.js"></script>		
+
 	</body>
 </html>
