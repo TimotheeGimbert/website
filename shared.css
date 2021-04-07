@@ -48,6 +48,10 @@ footer {
 	margin-top: 150px;
 	background-color: hsla(240, 19%, 15%, 0.521);
 }
+	footer a {
+		width: 25%;
+		margin: 10px;
+	}
 
 .main {
 	display: flex;
