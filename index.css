@@ -1,9 +1,11 @@
-.disclaimer {
-    width: 90%;
-    height: 60px;
-    margin-top: 80px;
+.video {
+    width: 75%;
+    max-height: 700px;
     text-align: center;
-    margin-top: 200px;
-    font-style: italic;
+    margin-top: 20px;
+    margin-left: 80px;
 }
     
+p {
+    margin-top: 40px;
+}
