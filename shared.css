@@ -26,9 +26,9 @@ header {
 	header aside {
 		display: flex;
 		flex-flow: column nowrap;
-		width: 15%;
+		width: 18.5%;
 		min-width: 225px;
-		margin-left: 7%;
+		margin-left: 5%;
 		padding: 25px;
 		border: 10px solid hsl(240, 20%, 10%);
 	}
@@ -62,7 +62,7 @@ footer {
 		display: flex;	
 		flex-flow: row nowrap;
 		justify-content: center;
-		width: 32%;
+		width: 33%;
 	}
 		.main__menuLeft nav {
 			display: flex;	
