@@ -2,10 +2,11 @@
 var headerOut = '<aside><a href="https://tempsreel.nouvelobs.com/abc-lettres/proverbe-latin/nosce-te-ipsum.html" target="_blank"><h2>" Nosce Te Ipsum "</h2></a><h3>"Connais ta mesure" - Aristote</h3></aside><h1>Site Web expérimental</h1>';
 document.querySelector(".headerJS").innerHTML = headerOut;
 
-//SETTING UP THE FOOTER
+// SETTING UP THE FOOTER
 var footerOut = "<a href='index.html'><h2>retour à l'accueil</h2></a>"
 document.querySelector(".footerJS").innerHTML = footerOut;
 
+// GET AND DISPLAY METEO
 const villes = ["bordeaux", "paris", "nantes", "grenoble"];
 for (let ville in villes) {
     var askWeather = new XMLHttpRequest();
