@@ -149,12 +149,12 @@ a:link, a:visited {
     width: 75%;
     max-height: 600px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 60px;
     margin-left: 80px;
 }
     
 .video p {
-    margin-top: 0px;
+    margin-top: 20px;
     margin-left: 80px;
     font-weight: bold;    
 }
