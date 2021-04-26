@@ -3,8 +3,21 @@ var headerOut = '<aside><a href="https://tempsreel.nouvelobs.com/abc-lettres/pro
 document.querySelector(".headerJS").innerHTML = headerOut;
 
 // SETTING UP THE FOOTER
-var footerOut = "<a href='index.html'><h2>retour à l'accueil</h2></a>"
+var footerOut = '<a href="index.html"><h2>retour à l"accueil</h2></a>';
 document.querySelector(".footerJS").innerHTML = footerOut;
+
+// SETTING UP THE NAV MENU (CODE INSPIRED BY freefrontend.com)
+var links = document.getElementsByClassName('flex1__menu--link')
+for(var i = 0; i <= links.length; i++)
+   addClass(i)
+
+function addClass(id){
+   setTimeout(function(){
+      if(id > 0) links[id-1].classList.remove('hover')
+      links[id].classList.add('hover')
+   }, id*750) 
+}
+
 
 // GET AND DISPLAY METEO
 const villes = ["bordeaux", "paris", "nantes", "grenoble"];
@@ -37,7 +50,7 @@ for (let ville in villes) {
 }
 
 // Mouse tracking within #zone
-const zone = document.querySelector("#zone");
+const zone = document.querySelector('#zone');
 zone.addEventListener("mousemove", function(event) {
     const xPos = event.offsetX;
     const hslText = "hsl(" + xPos + ", 10%, 50%)";
